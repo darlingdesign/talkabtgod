@@ -20,11 +20,53 @@ p.caption {
 	margin: 0px 0px 0px 5px;
 	left: 0px;
 }
-p {
-	font-family: times new roman, serif;
-	width: 500px;
-	position: absolute;
-	left: 50px;
+p.intro {
+	text-align: center;
+	height: 300px;
+	line-height: 150%
+}
+h2 {
+	font-family: ebrima;
+	letter-spacing: 3px;
+}
+.outlands {
+	color: black;
+	background-color: white;
+	height: 500px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+.outlandtext {
+	line-height: 150%;
+}
+.krakatoa {
+	color: red;
+	background-color: black;
+	height: 500px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+.krakatoatext {
+	line-height: 150%;
+}
+.krakatoaimage {
+	height: 300px;
+}
+.fallingcradle {
+	color: black;
+	background-color: white;
+	height: 500px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+.fallingcradletext {
+	line-height: 150%;
 }
 
 	
