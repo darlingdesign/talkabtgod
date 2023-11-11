@@ -10,14 +10,16 @@ header {
   height: 150px;
 }
 h1 {
+	font-size: 45px;
+	font-family: tahoma;
+	font-style: bold;
 	color: rgb(48, 134, 48);
-	font-family: verdana;
 	margin: 0px;
 	padding: 20px;
 	text-align: center;
 }
 .logo {
-	height: 80px;
+	height: 10%;
 	padding: 20px;
 	position: absolute;
 }
@@ -50,9 +52,9 @@ nav {
 }
 h2 {
   	font-size: 30px;
-  	font-family: verdana;
-  	letter-spacing: 3px;
-  	font-weight: 100;
+  	font-family: helvetica, arial, verdana;
+  	letter-spacing: 6px;
+  	font-weight: lighter;
 }
 .endlessforest {
 	width: 100%;
@@ -117,4 +119,47 @@ footer {
 }
 .flink {
 	text-decoration: none;
+}
+
+/*About Section*/
+section {
+	width: 80%;
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 20px;
+	color: black;
+	background-color: white;
+}
+p.section {
+	width: 50%;
+}
+
+/*More Section*/
+.more {
+	width: 80%;
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 20px;
+	color: black;
+	background-color: white;
+}
+.morepoem {
+	padding: 20px;
+	margin: auto;
+	margin-left: 7%;
+	display: flex;
+	justify-content: space-around;
+}
+.gallery {
+	text-align: center;
+}
+.artwork {
+	padding: 20px;
+	margin: auto;
+	margin-left: 7%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
