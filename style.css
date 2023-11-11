@@ -1,20 +1,58 @@
 body {
+  	font-size: 18px;
 	font-family: times, garamond, georgia;
 	color: white;
-	font-size: 12px;
-	background-color: black;
+	background-color: #231F20;
 	margin: 0px;
 	padding: 0px;
 }
+header {
+  height: 150px;
+}
 h1 {
+	color: rgb(48, 134, 48);
+	font-family: verdana;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+}
+.logo {
+	height: 80px;
+	padding: 20px;
+	position: absolute;
+}
+nav {
 	background-color: gray;
 	color: black;
-	font-family: verdana, sans serif;
-	width: 100%;
-	padding: 10px;
-	margin: 0px;
+	padding: 20px;
 	text-align: center;
-	position: fixed;
+}
+.link:link {
+	color: black;
+	background-color: gray;
+	padding: 20px;
+	text-decoration: none;
+	font-family: verdana;
+}
+.link:visited {
+	color: black;
+	background-color: gray;
+	padding: 20px;
+}
+.link:hover {
+	color: black;
+	background-color:rgb(48, 134, 48);
+	padding: 20px;
+}
+.link:active {
+	background-color:rgb(79, 139, 79);
+	padding: 20px;
+}
+h2 {
+  	font-size: 30px;
+  	font-family: verdana;
+  	letter-spacing: 3px;
+  	font-weight: 100;
 }
 .endlessforest {
 	width: 100%;
@@ -26,13 +64,8 @@ p.caption {
 }
 .intro {
 	text-align: center;
-	height: 300px;
-	line-height: 175%;
-	font-size: 21px;
-}
-h2 {
-	font-family: ebrima;
-	letter-spacing: 3px;
+	height: 200px;
+	line-height: 150%
 }
 .outlands {
 	color: black;
@@ -41,6 +74,7 @@ h2 {
 	padding: 20px;
 	display: flex;
 	justify-content: space-around;
+	
 }
 .outlandtext {
 	line-height: 150%;
@@ -48,7 +82,7 @@ h2 {
 .krakatoa {
 	color: red;
 	background-color: black;
-	height: 500px;
+	height: 600px;
 	padding: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -66,7 +100,21 @@ h2 {
 	padding: 20px;
 	display: flex;
 	justify-content: space-around;
+	
 }
 .fallingcradletext {
 	line-height: 150%;
+}
+iframe {
+	height:400px;
+}
+footer {
+	height: 200px;
+	background-color: gray;
+	text-align: center;
+	word-spacing: 5px;
+	padding: 20px;
+}
+.flink {
+	text-decoration: none;
 }
