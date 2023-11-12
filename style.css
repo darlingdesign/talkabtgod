@@ -3,52 +3,52 @@ body {
 	font-family: times, garamond, georgia;
 	color: white;
 	background-color: #231F20;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
+	line-height: 150%;
+	max-width: 150em;
 }
 header {
-  height: 150px;
+  height: 9em;
 }
 h1 {
 	font-size: 45px;
 	font-family: tahoma;
 	font-style: bold;
 	color: rgb(48, 134, 48);
-	margin: 0px;
-	padding: 20px;
+	margin: 0;
+	padding: 0.7em;
 	text-align: center;
+	line-height: 150%;
 }
 .logo {
 	height: 10%;
-	padding: 20px;
+	padding: 2em;
 	position: absolute;
 }
 nav {
 	background-color: gray;
 	color: black;
-	padding: 20px;
+	padding: 1em;
 	text-align: center;
 }
 .link:link {
 	color: black;
 	background-color: gray;
-	padding: 20px;
+	padding: 1.1em;
 	text-decoration: none;
 	font-family: verdana;
 }
 .link:visited {
 	color: black;
 	background-color: gray;
-	padding: 20px;
 }
 .link:hover {
 	color: black;
 	background-color:rgb(48, 134, 48);
-	padding: 20px;
 }
 .link:active {
 	background-color:rgb(79, 139, 79);
-	padding: 20px;
 }
 h2 {
   	font-size: 30px;
@@ -66,49 +66,38 @@ p.caption {
 }
 .intro {
 	text-align: center;
-	height: 200px;
-	line-height: 150%
+	height: 12em;
 }
 .outlands {
 	color: black;
 	background-color: white;
-	height: 500px;
-	padding: 20px;
+	height: 32em;
+	padding: 2em;
 	display: flex;
 	justify-content: space-around;
 	
 }
-.outlandtext {
-	line-height: 150%;
+.outlandsimage {
+	height: 28em;
+	max-width: 20em;
+	width: 100%;
 }
 .krakatoa {
 	color: red;
 	background-color: black;
-	height: 600px;
-	padding: 20px;
+	height: 34em;
+	padding: 2em;
 	display: flex;
 	justify-content: space-around;
-}
-.krakatoatext {
-	line-height: 150%;
 }
 .krakatoaimage {
-	height: 300px;
-}
-.fallingcradle {
-	color: black;
-	background-color: white;
-	height: 500px;
-	padding: 20px;
-	display: flex;
-	justify-content: space-around;
-	
-}
-.fallingcradletext {
-	line-height: 150%;
+	max-width: 30em;
+	width: 100%;
 }
 iframe {
-	height:400px;
+	height: 20em;
+	max-width: 30em;
+	width: 100%;
 }
 footer {
 	height: 200px;
@@ -133,6 +122,12 @@ section {
 }
 p.section {
 	width: 50%;
+}
+
+/*Contact Section*/
+.contact {
+	display: flex;
+	justify-content: space-around;
 }
 
 /*More Section*/
